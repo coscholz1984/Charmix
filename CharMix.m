@@ -1,3 +1,26 @@
+% =============== Charmix character composer  ++=============== %
+% This is a character frame composition tool. It requires a     %
+% series of character animation sequences with corresponding    %
+% segmentation maps that define the parts of the frames (such   %
+% as hair, torso, etc.). Then the individual sequences can be   %
+% composed into a unique new sequence. Make sure that the       %
+% individual segments between different sequences roughly fit   %
+% at the interfaces, otherwise parts of the image might be      %
+% missing and have to fixed afterwards.
+%
+% This code is being released for learning purposes and in the  %
+% that it is usefull and funny. However WITHOUT ANY WARRANTY;   % 
+% without even the implied warranty of MERCHANTABILITY or       % 
+% FITNESS FOR A PARTICULAR PURPOSE.                             %
+%
+% The code is being licensed under the                          %
+% GNU General Public license v3.0                               %
+% Graphics and data used in this example are licensed under the %
+% Creative Commons Attribution 4.0 International license        %
+% (CC BY 4.0)                                                   %
+%
+% Author: Christian Scholz (2022)
+
 IM_seq = {};
 SE_seq = {};
 IM_seq{1} = {'./data/MainFrame_1.png',...
